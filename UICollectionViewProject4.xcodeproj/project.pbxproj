@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0449020826D568C600186D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449020726D568C600186D5A /* AppDelegate.swift */; };
-		0449020A26D568C600186D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449020926D568C600186D5A /* SceneDelegate.swift */; };
 		0449020C26D568C600186D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449020B26D568C600186D5A /* ViewController.swift */; };
 		0449020F26D568C600186D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449020D26D568C600186D5A /* Main.storyboard */; };
 		0449021126D568C900186D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0449021026D568C900186D5A /* Assets.xcassets */; };
 		0449021426D568C900186D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449021226D568C900186D5A /* LaunchScreen.storyboard */; };
+		0449021D26D56D8E00186D5A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449021C26D56D8E00186D5A /* SearchViewController.swift */; };
+		0449022026D56DC900186D5A /* MediatecaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449021F26D56DC900186D5A /* MediatecaViewController.swift */; };
+		0449022326D56E0600186D5A /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022226D56E0600186D5A /* ForYouViewController.swift */; };
+		0449022626D56E5500186D5A /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022526D56E5500186D5A /* AlbumViewController.swift */; };
+		0449022826D56F4D00186D5A /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0449020426D568C600186D5A /* UICollectionViewProject4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewProject4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449020726D568C600186D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0449020926D568C600186D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0449020B26D568C600186D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0449020E26D568C600186D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0449021026D568C900186D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0449021326D568C900186D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0449021526D568C900186D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0449021C26D56D8E00186D5A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0449021F26D56DC900186D5A /* MediatecaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatecaViewController.swift; sourceTree = "<group>"; };
+		0449022226D56E0600186D5A /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
+		0449022526D56E5500186D5A /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,11 @@
 		0449020626D568C600186D5A /* UICollectionViewProject4 */ = {
 			isa = PBXGroup;
 			children = (
+				0449022426D56E2D00186D5A /* Album */,
+				0449022126D56DE600186D5A /* ForYou */,
+				0449021E26D56DA200186D5A /* Mediateca */,
+				0449021B26D56D5B00186D5A /* Search */,
 				0449020726D568C600186D5A /* AppDelegate.swift */,
-				0449020926D568C600186D5A /* SceneDelegate.swift */,
 				0449020B26D568C600186D5A /* ViewController.swift */,
 				0449020D26D568C600186D5A /* Main.storyboard */,
 				0449021026D568C900186D5A /* Assets.xcassets */,
@@ -65,6 +76,39 @@
 				0449021526D568C900186D5A /* Info.plist */,
 			);
 			path = UICollectionViewProject4;
+			sourceTree = "<group>";
+		};
+		0449021B26D56D5B00186D5A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0449021C26D56D8E00186D5A /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0449021E26D56DA200186D5A /* Mediateca */ = {
+			isa = PBXGroup;
+			children = (
+				0449021F26D56DC900186D5A /* MediatecaViewController.swift */,
+			);
+			path = Mediateca;
+			sourceTree = "<group>";
+		};
+		0449022126D56DE600186D5A /* ForYou */ = {
+			isa = PBXGroup;
+			children = (
+				0449022226D56E0600186D5A /* ForYouViewController.swift */,
+			);
+			path = ForYou;
+			sourceTree = "<group>";
+		};
+		0449022426D56E2D00186D5A /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				0449022526D56E5500186D5A /* AlbumViewController.swift */,
+				0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */,
+			);
+			path = Album;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0449022626D56E5500186D5A /* AlbumViewController.swift in Sources */,
+				0449022026D56DC900186D5A /* MediatecaViewController.swift in Sources */,
+				0449021D26D56D8E00186D5A /* SearchViewController.swift in Sources */,
 				0449020C26D568C600186D5A /* ViewController.swift in Sources */,
+				0449022326D56E0600186D5A /* ForYouViewController.swift in Sources */,
 				0449020826D568C600186D5A /* AppDelegate.swift in Sources */,
-				0449020A26D568C600186D5A /* SceneDelegate.swift in Sources */,
+				0449022826D56F4D00186D5A /* AlbumCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
