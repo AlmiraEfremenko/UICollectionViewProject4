@@ -18,6 +18,10 @@
 		0449022626D56E5500186D5A /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022526D56E5500186D5A /* AlbumViewController.swift */; };
 		0449022826D56F4D00186D5A /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */; };
 		0449022A26D5718300186D5A /* MediaFileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022926D5718300186D5A /* MediaFileCollectionViewCell.swift */; };
+		0449022C26D5732300186D5A /* HeaderSectionAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022B26D5732300186D5A /* HeaderSectionAlbum.swift */; };
+		0449022E26D5734D00186D5A /* HeaderSectionGeneralAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022D26D5734D00186D5A /* HeaderSectionGeneralAlbum.swift */; };
+		0449023026D5736B00186D5A /* HeaderSectionMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022F26D5736B00186D5A /* HeaderSectionMedia.swift */; };
+		0449023226D573BB00186D5A /* HeaderSectionAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449023126D573BB00186D5A /* HeaderSectionAnother.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		0449022526D56E5500186D5A /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 		0449022926D5718300186D5A /* MediaFileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileCollectionViewCell.swift; sourceTree = "<group>"; };
+		0449022B26D5732300186D5A /* HeaderSectionAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionAlbum.swift; sourceTree = "<group>"; };
+		0449022D26D5734D00186D5A /* HeaderSectionGeneralAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionGeneralAlbum.swift; sourceTree = "<group>"; };
+		0449022F26D5736B00186D5A /* HeaderSectionMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionMedia.swift; sourceTree = "<group>"; };
+		0449023126D573BB00186D5A /* HeaderSectionAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionAnother.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,10 @@
 				0449022526D56E5500186D5A /* AlbumViewController.swift */,
 				0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */,
 				0449022926D5718300186D5A /* MediaFileCollectionViewCell.swift */,
+				0449022B26D5732300186D5A /* HeaderSectionAlbum.swift */,
+				0449022D26D5734D00186D5A /* HeaderSectionGeneralAlbum.swift */,
+				0449022F26D5736B00186D5A /* HeaderSectionMedia.swift */,
+				0449023126D573BB00186D5A /* HeaderSectionAnother.swift */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -184,14 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0449023226D573BB00186D5A /* HeaderSectionAnother.swift in Sources */,
 				0449022626D56E5500186D5A /* AlbumViewController.swift in Sources */,
 				0449022A26D5718300186D5A /* MediaFileCollectionViewCell.swift in Sources */,
+				0449022C26D5732300186D5A /* HeaderSectionAlbum.swift in Sources */,
 				0449022026D56DC900186D5A /* MediatecaViewController.swift in Sources */,
 				0449021D26D56D8E00186D5A /* SearchViewController.swift in Sources */,
 				0449020C26D568C600186D5A /* ViewController.swift in Sources */,
 				0449022326D56E0600186D5A /* ForYouViewController.swift in Sources */,
 				0449020826D568C600186D5A /* AppDelegate.swift in Sources */,
 				0449022826D56F4D00186D5A /* AlbumCollectionViewCell.swift in Sources */,
+				0449023026D5736B00186D5A /* HeaderSectionMedia.swift in Sources */,
+				0449022E26D5734D00186D5A /* HeaderSectionGeneralAlbum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
