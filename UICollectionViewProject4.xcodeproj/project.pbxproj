@@ -17,6 +17,7 @@
 		0449022326D56E0600186D5A /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022226D56E0600186D5A /* ForYouViewController.swift */; };
 		0449022626D56E5500186D5A /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022526D56E5500186D5A /* AlbumViewController.swift */; };
 		0449022826D56F4D00186D5A /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */; };
+		0449022A26D5718300186D5A /* MediaFileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449022926D5718300186D5A /* MediaFileCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0449022226D56E0600186D5A /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		0449022526D56E5500186D5A /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		0449022926D5718300186D5A /* MediaFileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				0449022526D56E5500186D5A /* AlbumViewController.swift */,
 				0449022726D56F4D00186D5A /* AlbumCollectionViewCell.swift */,
+				0449022926D5718300186D5A /* MediaFileCollectionViewCell.swift */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0449022626D56E5500186D5A /* AlbumViewController.swift in Sources */,
+				0449022A26D5718300186D5A /* MediaFileCollectionViewCell.swift in Sources */,
 				0449022026D56DC900186D5A /* MediatecaViewController.swift in Sources */,
 				0449021D26D56D8E00186D5A /* SearchViewController.swift in Sources */,
 				0449020C26D568C600186D5A /* ViewController.swift in Sources */,
