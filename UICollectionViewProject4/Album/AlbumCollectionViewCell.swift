@@ -72,5 +72,3 @@ class AlbumCollectionViewCell: UICollectionViewCell {
         contentView.addSubview(amount)
     }
 }
-
-

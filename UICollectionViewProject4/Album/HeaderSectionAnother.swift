@@ -63,5 +63,3 @@ class HeaderSectionAnother: UICollectionReusableView {
         addSubview(labelHeaderRight)
     }
 }
-
-
