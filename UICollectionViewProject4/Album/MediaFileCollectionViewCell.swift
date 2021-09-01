@@ -82,6 +82,3 @@ class MediaFileCollectionViewCell: UICollectionViewCell {
         contentView.addSubview(imageAccessory)
     }
 }
-
-
-
